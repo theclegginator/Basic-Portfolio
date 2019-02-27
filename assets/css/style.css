@@ -1,0 +1,93 @@
+/* --- General Properties --- */
+
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif
+}
+
+body {
+    background-image: url(../images/background_shattered.png);
+    background-repeat: repeat;
+    margin: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    height: 80px;
+    width: full;
+    border-bottom: solid 2px;
+    border-color: #bababa;
+    margin-bottom: 30px;
+}
+
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 50px;
+    background-color: #666666;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    border-top: solid 5px;
+    border-color: #4aaaa5;
+}
+
+h1 {
+    color: white;
+    font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+    font-size: 18;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Georgia, 'Times New Roman', Times, serif;
+    border-bottom: solid 2px;
+    border-color: #bababa;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #777777;
+}
+
+/* --- Section Properties --- */
+
+#namePlate {
+    background-color: #4aaaa5;
+    color: white;
+    height: 80px;
+    width: 240px;
+    text-align: center;
+    float: left;
+    margin-left: 14.5%;
+}
+
+#menu {
+    text-align: right;
+    font-size: large;
+    max-width: 960px;
+    margin: auto;
+}
+
+#contentArea {
+    max-width: 960px;
+    margin: auto;
+    max-height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffffff;
+    border: solid 1px;
+    border-color: #bababa;
+    line-height: 1.8;
+    font-size: large;
+    color: #777777;
+    margin-bottom: 100px;
+}
+
+#profileImage {
+    float: left;
+    padding-right: 30px;
+}
