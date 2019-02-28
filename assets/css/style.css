@@ -30,6 +30,7 @@ body {
     font-size: small;
     border-top: solid 5px;
     border-color: #4aaaa5;
+    z-index: 3;
 }
 
 h1 {
@@ -102,9 +103,28 @@ p {
     padding-right: 30px;
 }
 
+/* --- image grid --- */
+
+.left {
+    float: left; 
+    position: relative; /* combined with absolute position of #portfolioImage in order to anchor headers */
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.right {
+    float: left; 
+    position: relative;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #portfolioImage {
-    /* position: absolute;
+    position: absolute; /* Used divs with class = img(#) to combine absolute and relative positions */
     left: 0px;
-    bottom: 10px; */
-    z-index: -1;
+    bottom: 0px;
+    z-index: 2;
 }
